@@ -51,7 +51,7 @@ const Todo = ({ todo }: TodoProps) => {
         />
       ) : (
         <span>{todo.text}</span>
-      )};
+      )}
 
       <div>
         {isEditing ? (
